@@ -1,0 +1,264 @@
+				    
+			body{
+				font-family: Georgia;
+				
+				
+			}
+			input,select{
+				margin: 10px;
+				padding: 8px;
+				border: solid 2px #14274e;
+				border-left-style: none;
+				border-right-style: none;
+				border-top-style: none;
+				width: 50%;
+				font-family: Georgia;
+				font-size: 15px;
+				background-color: white;
+				
+			}
+			input:hover{
+				background-color: lightgray;
+				border: solid 2px black;
+
+			}
+			input:focus{
+				border:solid 3px black;
+				padding: 10px;
+			}
+			#buttonStyle{
+				border: solid 4px black;
+				width: 20%;
+				margin: 20px;
+				padding: 10px;
+				background-color: white;
+
+			}
+			#buttonStyle:hover{
+				background-color: #66cccc;
+			}
+			.switch 
+			{
+			 	position: relative;
+			  	display: inline-block;
+		  		width: 50px;
+			  	height: 24px;
+			}
+			.slider {
+			  position: absolute;
+			  cursor: pointer;
+			  background-color: lightgray;
+			  -webkit-transition: .4s;
+			  transition: .4s;
+			  border-radius: 34px;
+			    top: 0;
+			  left: 0;
+			  right: 0;
+			  bottom: 0;		  
+
+			}
+
+			.slider:before {
+			  position: absolute;
+			  content: "";
+			    height: 18px;
+			  width: 20px;
+			  left: 4px;
+			  bottom: 4px;
+			  background-color: white;
+			  -webkit-transition: .4s;
+			  transition: .4s;
+			  border-radius: 50%;
+			  
+
+			}
+
+			input:checked + .slider {
+			  background-color: #14274E;
+			}
+
+
+			input:checked + .slider:before {
+			  -webkit-transform: translateX(18px);
+			  -ms-transform: translateX(18px);
+			  transform: translateX(20px);
+			}
+			.navBar
+            {
+                width: 100%;
+                height: 60px;
+                background-color: #006a71;
+                color: white;
+            }
+            .navBar ul
+            {
+                list-style-type: none;
+                text-align: center;                
+            }  
+            .navBar li
+            {
+                float: right;
+                width: 130px;
+                text-align: center;                    
+            }
+            .navBar a
+            {
+                text-decoration: none;
+                color: white;
+            }
+            .navBar li a 
+            {
+                text-decoration: none;
+                color: white;
+                height:30px;
+                display: block;   
+                text-align: center;
+                padding-top: 15px;          
+                margin: 10px;
+                font-size:20px;
+            }
+            .navBar li a:hover
+            {
+                background-color: black;
+            }
+            h1
+            {
+            	color: #006a71;
+            }
+                   .footer
+        {
+          background-color:black;
+          width: 100%;
+          height: 300px;
+          position: absolute;
+          top: 1100px;
+        }
+        .footerContact
+        {
+          width: 40%;
+          float: left;
+          height: 300px;
+          position: relative;
+        }
+        .footerContact i
+        {
+          font-size:30px;
+          color:white;
+          margin: 10px;
+          margin-right: 20px;
+        }
+        .footerContact p
+        {
+          float: left;
+        }
+        .footerPhone
+        {
+          position: absolute;
+          top: 60px;
+          left: 200px;
+          color: white;
+          font-size: 18px;
+        }
+
+        .footerLocation
+        {
+          position: absolute;
+          top: 130px;
+          left: 200px;
+          color: white;
+          font-size: 18px;
+        }
+        .footerEmail
+        {
+          position: absolute;
+          top: 200px;
+          left: 200px;
+          color: white;
+          font-size: 18px;
+        }
+        .iconBg
+        {
+          border-radius: 100%;
+          background-color:#373a40;
+          width: 40px;
+          height:40px;
+          text-align: center;
+          padding: 5px;
+          float: left;
+          margin-right: 30px;
+        }
+        .footerAboutUs
+        {
+          width: 30%;
+          float: left;
+          height: 300px;
+          position: relative;
+          color: white;
+          font-size: 18px;
+          text-align: justify;
+        }
+        .footerAboutUs div
+        {
+          position: absolute;
+          top: 60px;
+          width: 80%
+        }
+        .footerPages
+        {
+          width: 30%;
+          float: left;
+          position: relative;
+          font-size: 20px;
+        }
+        .footerPagesList
+        {
+          position: absolute;
+          top: 60px;
+          width: 80%;
+          color: white;
+        }
+        .footerPagesList ul
+        {
+          list-style-type: none;
+        }
+        .footerPagesList li
+        {
+          margin: 20px;
+        }
+        .footerPages a
+        {
+          text-decoration: none;
+          color: white;
+        }
+        .footerPagesLinks
+        {
+          position: absolute;
+          top: 200px;
+        }
+        .footerPagesLinks button
+        {
+          height: 40px;
+          width: 40px;
+          background-color:#373a40;
+          border:1px solid #373a40;
+          border-radius: 10%;
+          margin: 5px;
+          
+        }
+        .footerPagesLinks i
+        {
+          color: white;
+          font-size: 25px;
+        }
+        .footerCopyRight
+        {
+          color: white; 
+          font-size: 15px;
+          float: right;
+        }
+        .footerCopyRight i
+        {
+          font-size: 15px;
+          color: white;
+          margin-right: 10px;
+        }

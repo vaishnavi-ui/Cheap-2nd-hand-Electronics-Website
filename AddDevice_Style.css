@@ -1,0 +1,66 @@
+			body
+			{
+				font-family: Georgia;
+			}
+			body h1
+			{
+				font-family: 'Gill Sans', 'Gill Sans MT',  
+            ' Calibri', 'Trebuchet MS', 'sans-serif';
+            font-size: default;
+            color: #006a71;
+			}
+			input,select
+			{
+				margin: 10px;
+				margin-right: 35px;
+				padding: 8px;
+				border: solid 2px black;
+				border-left-style: none;
+				border-right-style: none;
+				border-top-style: none;
+				width: 50%;
+				font-family: Georgia;
+				font-size: 15px;
+				background-color: white;
+				color: black;
+			}
+			input:hover
+			{
+				background-color: lightgray;
+				border: solid 2px black;
+			}
+			input:focus
+			{
+				border:solid 3px black;
+				padding: 10px;
+			}
+			#buttonStyle
+			{
+				border: solid 4px black;
+				width: 20%;
+				margin: 20px;
+				padding: 10px;
+				background-color: white;
+			}
+			#buttonStyle:hover
+			{
+				background-color: #006a71;
+			}
+			#form
+			{
+				width: 40%;
+				text-align: center;
+				background-color: rgba(250, 250, 250, 1);
+				color:black;
+				float: right;
+				margin: 10px;
+				margin-top: 40px;
+			}
+			.mainDiv
+			{
+			  background-image: url("electronicsImg.jpg");
+			  height: 850px;
+			  background-position: center;
+			  background-repeat: no-repeat;
+			  background-size: cover; 
+			}
